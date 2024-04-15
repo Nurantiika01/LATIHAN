@@ -1,0 +1,31 @@
+#header
+print('='*50)
+print('selamat datang di aplikasi'.center(50))
+print('kalkulator'.center(50))
+print('-'*50)
+
+#input nilai
+a=int( input('masukan nilai a : '))
+b=int( input('masukan nilai b : '))
+print('-'*50)
+
+#proses aritmatika
+penjumlahan = a + b
+pengurangan = a - b
+perkalian = a * b
+pembagian = a / b
+eksponen = a ** b
+modulus = a % b
+
+#menampilkan hasil
+print(f'(a) + (b) = {penjumlahan}')
+print(f'(a) - (b) = {pengurangan}')
+print(f'(a) * (b) = {perkalian}')
+print(f'(a) / (b) = {pembagian}')
+print(f'(a) ** (b) = {eksponen}')
+print(f'(a) % (b) = {modulus}')
+print('-'*50)
+
+#footer
+print ('SEMANGAT YA!!! - Najwa Nubzatussofwa'.center(50))
+print('='*50)
